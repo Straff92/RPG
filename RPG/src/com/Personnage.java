@@ -1,6 +1,13 @@
 package com;
 
 public class Personnage {
+	
+	int vie;
+	int mana;
+	int str;
+	int dex;
+	String nom;
+	
 
 	public Personnage() {
 		// TODO Auto-generated constructor stub
@@ -15,6 +22,8 @@ public class Personnage {
 			while(str.length() <4) str = "0"+ str;
 			System.out.println(str);
 		}
+		
+		
 		//
 	}
 
